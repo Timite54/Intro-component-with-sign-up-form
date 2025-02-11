@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-image: url("./images/bg-intro-desktop.png");
+      background-color: #FF7978;
+    }
+  </style>
+</head>
+<body class="my-8">
+<div class="grid grid-rows-1 grid-cols-2 p-6 m-auto">
+  <div class="text-white mx-0 m-auto">
+    <h1 class="font-bold text-2xl">Learn to code by watching others</h1>
+    <p class="text-justify">
+      See how experienced developers solve problems in real-time.<br>
+      Watching scripted tutorials is great,
+      but understanding how<br> developers think is invaluable.
+    </p>
+  </div>
+  <div class="flex flex-col items-center justify-center gap-y-6 ">
+    <button class="bg-[#5D54A3] text-white px-25 py-1 rounded"> <span class="font-bold">Try it free 7 days</span> then $20/mo. thereafter</button>
+    <form class="bg-white rounded grid grid-cols-1 grid-rows-2 flex content-center p-10 gap-y-6">
+      <input type="text" placeholder="First Name" class="p-3 text-black rounded border-2 border-solid">
+      <input type="text" placeholder="Last Name"  class="p-3 text-black rounded border-2 border-solid">
+      <input type="email" placeholder="Email Address"  class="p-3 text-black rounded border-2 border-solid">
+      <input type="password" placeholder="Password"  class="p-3 text-black rounded border-2 border-solid">
+      <button class="bg-[#37CC8A] py-3 rounded uppercase font-bold text-white">Claim your free trial</button>
+      <p>
+        By clicking the button, you are agreeing to our <a class="text-[#CC1313]">Terms and Services</a>
+      </p>
+    </form>
+  </div>
+</div>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Timité</a>.
+    </p>
+  </footer>
+</body>
+</html>
